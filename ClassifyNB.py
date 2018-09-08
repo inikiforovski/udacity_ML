@@ -14,3 +14,5 @@ def classify(features_train, labels_train):
     return clf2.fit(features_train, labels_train)
     # GaussianNB()
     # return clf2.predict([[-0.8, -1]])
+
+

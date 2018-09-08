@@ -20,8 +20,6 @@ from classifyDTC import classifyDTC
 # import pylab as pl
 
 
-
-
 # cnx = connection.MySQLConnection(user='admin', password='CEqNzCAUip99V?fsx',
 #                                  host='127.0.0.1',
 #                                  database='employees')
@@ -54,10 +52,10 @@ bumpy_slow = [features_train[ii][1] for ii in range(0, len(features_train)) if l
 
 # You will need to complete this function imported from the ClassifyNB script.
 # Be sure to change to that code tab to complete this quiz.
-#clf = classifySVM(features_train, labels_train)
+# clf = classifySVM(features_train, labels_train)
 clf = classifyDTC(features_train, labels_train)
 
-### draw the decision boundary with the text points overlaid
+# ### draw the decision boundary with the text points overlaid
 prettyPicture(clf, features_test, labels_test, "testDTC.png")
 output_image("testDTC.png", "png", open("testDTC.png", "rb").read())
 
