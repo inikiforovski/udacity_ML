@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac23f88e-1512-4f8d-970c-f9830328e0ad" name="Default" comment="1st AVL.py" />
+    <list default="true" id="ac23f88e-1512-4f8d-970c-f9830328e0ad" name="Default" comment="1st AVL.py">
+      <change beforePath="$PROJECT_DIR$/AVL.py" beforeDir="false" afterPath="$PROJECT_DIR$/AVL.py" afterDir="false" />
+    </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,14 +27,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2479" />
+          <entry key="py" value="4178" />
           <entry key="txt" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="31" />
-          <entry key="Python" value="2479" />
+          <entry key="Python" value="4178" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -80,17 +82,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AVL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+            <state relative-caret-position="1230">
+              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
               <folding>
-                <marker date="1536435489277" expanded="true" signature="231:232" ph="..." />
-                <marker date="1536435489277" expanded="true" signature="231:236" ph="..." />
-                <marker date="1536435489277" expanded="true" signature="627:632" ph="..." />
-                <marker date="1536435489277" expanded="true" signature="857:862" ph="..." />
-                <marker date="1536435489277" expanded="true" signature="1225:1230" ph="..." />
-                <marker date="1536435489277" expanded="true" signature="1449:1454" ph="..." />
-                <marker date="1536435489277" expanded="true" signature="1723:1810" ph="..." />
-                <marker date="1536435489277" expanded="true" signature="1910:2084" ph="..." />
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1536789667729" expanded="true" signature="1311:1312" ph="..." />
+                <marker date="1536789667729" expanded="true" signature="1311:1316" ph="..." />
+                <marker date="1536789667729" expanded="true" signature="1707:1712" ph="..." />
+                <marker date="1536789667729" expanded="true" signature="1937:1942" ph="..." />
+                <marker date="1536789667729" expanded="true" signature="2305:2310" ph="..." />
+                <marker date="1536789667729" expanded="true" signature="2583:2853" ph="..." />
+                <marker date="1536789667729" expanded="true" signature="2874:2879" ph="..." />
+                <marker date="1536789667729" expanded="true" signature="3147:3307" ph="..." />
+                <marker date="1536789667729" expanded="true" signature="3324:3411" ph="..." />
+                <marker date="1536789667729" expanded="true" signature="3511:3685" ph="..." />
               </folding>
             </state>
           </provider>
@@ -99,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prep_terrain_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="347">
+              <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -520,32 +525,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prep_terrain_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testSVM.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_vis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/studentMain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#303#348#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testout.csv">
       <provider selected="true" editor-type-id="text-editor" />
@@ -570,19 +551,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/class_vis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#303#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prep_terrain_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AVL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+        <state relative-caret-position="1230">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
           <folding>
-            <marker date="1536435489277" expanded="true" signature="231:232" ph="..." />
-            <marker date="1536435489277" expanded="true" signature="231:236" ph="..." />
-            <marker date="1536435489277" expanded="true" signature="627:632" ph="..." />
-            <marker date="1536435489277" expanded="true" signature="857:862" ph="..." />
-            <marker date="1536435489277" expanded="true" signature="1225:1230" ph="..." />
-            <marker date="1536435489277" expanded="true" signature="1449:1454" ph="..." />
-            <marker date="1536435489277" expanded="true" signature="1723:1810" ph="..." />
-            <marker date="1536435489277" expanded="true" signature="1910:2084" ph="..." />
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1536789667729" expanded="true" signature="1311:1312" ph="..." />
+            <marker date="1536789667729" expanded="true" signature="1311:1316" ph="..." />
+            <marker date="1536789667729" expanded="true" signature="1707:1712" ph="..." />
+            <marker date="1536789667729" expanded="true" signature="1937:1942" ph="..." />
+            <marker date="1536789667729" expanded="true" signature="2305:2310" ph="..." />
+            <marker date="1536789667729" expanded="true" signature="2583:2853" ph="..." />
+            <marker date="1536789667729" expanded="true" signature="2874:2879" ph="..." />
+            <marker date="1536789667729" expanded="true" signature="3147:3307" ph="..." />
+            <marker date="1536789667729" expanded="true" signature="3324:3411" ph="..." />
+            <marker date="1536789667729" expanded="true" signature="3511:3685" ph="..." />
           </folding>
         </state>
       </provider>
